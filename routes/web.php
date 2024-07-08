@@ -6,6 +6,7 @@ use App\Http\Controllers\NosotrosController;
 use App\Http\Controllers\PrecioController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\ServicioController;
+use App\Http\Controllers\SoporteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,4 +26,5 @@ Route::get('/servicios', [ServicioController::class,'index'])->name('servicios')
 Route::get('/productos', [ProductoController::class,'index'])->name('productos');
 Route::get('/nosotros', [NosotrosController::class,'index'])->name('nosotros');
 Route::get('/precios', [PrecioController::class,'index'])->name('precios');
+Route::get('/soporte', [SoporteController::class,'index'])->name('soporte');
 Route::get('/contactos', [ContactoController::class,'index'])->name('contactos');

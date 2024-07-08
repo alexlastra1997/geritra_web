@@ -1,23 +1,31 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class=" bg-[url('https://img.freepik.com/free-photo/professional-asian-male-engineer-specialist-worker-wearing-uniform-hand-control-drilling-machine-manufacturing-factory-emgoneer-concept_609648-72.jpg?t=st=1720459836~exp=1720463436~hmac=14a186439272a62d9fe110dedfcd30d19eec816239e80125860fdcdc4e46b270&w=740')] bg-cover bg-center h-screen bg-gray-400 bg-blend-multiply">
-        <div class="px-4 mx-auto max-w-screen-lg text-center py-24 lg:py-56">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">SOFTWARE PROTEGE SST</h1>
-            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Simplifica y optimiza la gestión de la seguridad y salud de tus trabajadores!</p>
-            <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="grid grid-cols-1 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">SOFTWARE PROTEGE SST</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Simplifica y optimiza la gestión de la seguridad y salud de tus trabajadores!</p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-start sm:space-y-0">
                 <a href="{{ route('contactos') }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                     Contáctanos
                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                 </a>
-                <a href="{{ route('productos') }}" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                <a href="{{ route('productos') }}" class="inline-flex justify-center hover:text-white items-center py-3 px-5 sm:ms-4 text-base font-medium text-center bg-lime-500 text-white rounded-lg border border-white hover:bg-lime-300 focus:ring-4 focus:ring-gray-400">
                     Leer más
                 </a>  
             </div>
+            </div>
+            <div class=" lg:mt-0 lg:col-span-5 lg:flex ">
+                <img src="{{ asset('images/protegeweb2.png') }}" alt="mockup">
+            </div>                
         </div>
     </section>
+
 
     <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
