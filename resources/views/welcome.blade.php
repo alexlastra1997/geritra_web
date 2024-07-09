@@ -9,7 +9,7 @@
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">SOFTWARE PROTEGE SST</h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Simplifica y optimiza la gestión de la seguridad y salud de tus trabajadores!</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-start sm:space-y-0">
-                <a href="{{ route('contactos') }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                <a href="{{ route('contactos.index') }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                     Contáctanos
                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -32,7 +32,7 @@
             <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-blue-900 dark:text-white">¿Quienes somos?</h2>           
                 <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Somos una empresa comprometida con la prevención de riesgos del trabajo, nos dedicamos a proporcionar soluciones integrales y tecnológicas para la seguridad y salud ocupacional. Nuestro objetivo es transformar la manera en que las empresas gestionan sus riesgos laborales, mejorando no solo el cumplimiento normativo, sino también fomentando una cultura organizacional de prevención y bienestar.</p>
-                <a href="#" class="inline-flex items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                <a href="{{ route('nosotros') }}" class="inline-flex items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                     Nosotros
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
@@ -52,7 +52,7 @@
             <div class="mt-4 md:mt-0">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-blue-900 dark:text-white">PROTEGE SST</h2>
                 <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Nuestra principal solución es nuestro software PROTEGE, que está diseñado para simplificar y optimizar la gestión de la seguridad y salud en el trabajo, a través de sus once módulos especializados que abarcan desde la gestión técnica de riesgos hasta la documentación y cumplimiento normativo. Con PROTEGE, puedes tener la tranquilidad de que tu empresa está en conformidad con los más altos estándares de seguridad y salud en el trabajo.</p>
-                <a href="#" class="inline-flex items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                <a href="{{ route('servicios') }}" class="inline-flex items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                     Nuestros Servicios
                     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
@@ -66,7 +66,7 @@
             <p class=" text-white"> 
             Explora nuestras soluciones y descubre cómo podemos ayudarte a crear un entorno de trabajo más seguro y saludable.
             </p>
-            <a href="#" class=" w-44 items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+            <a href="{{ route('precios') }}" class=" w-44 items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                 Nuestros Planes
             </a>
             

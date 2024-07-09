@@ -209,7 +209,29 @@
                 
             </ol>
         </div>
-        <p>video aqui</p>
+        <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/rt9YYhNiE9g?si=0wdARJv9fs51bwNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <style>
+            .video-responsive {
+                position: relative;
+                padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                background: #000;
+            }
+
+            .video-responsive iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        </style>
+
     </div>
 </section>
 

@@ -8,15 +8,15 @@
             </div>
             <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 ">
                 <div>
-                    <h2 class="text-sm font-semibold text-gray-400  uppercase dark:text-white">Teléfono: (+593)*********</h2>
+                    <h2 class="text-sm font-semibold text-gray-400   dark:text-white">Teléfono: (+593) 983 056 998</h2>
                     
                 </div>
                 <div>
-                    <h2 class="text-sm font-semibold text-gray-400 uppercase dark:text-white">Email: geritra@geritra.com</h2>
+                    <h2 class="text-sm font-semibold text-gray-400  dark:text-white">Email: gerencia@geritra.com</h2>
                     
                 </div>
                 <div>
-                    <h2 class="text-sm font-semibold text-gray-400 uppercase dark:text-white">Dirección: Gil R. Dávalos, Quito 170143</h2>
+                    <h2 class="text-sm font-semibold text-gray-400  dark:text-white">Dirección: Gil R. Dávalos, Quito 170143</h2>
                 </div>
             </div>
             

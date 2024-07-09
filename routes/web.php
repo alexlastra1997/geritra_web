@@ -27,4 +27,4 @@ Route::get('/productos', [ProductoController::class,'index'])->name('productos')
 Route::get('/nosotros', [NosotrosController::class,'index'])->name('nosotros');
 Route::get('/precios', [PrecioController::class,'index'])->name('precios');
 Route::get('/soporte', [SoporteController::class,'index'])->name('soporte');
-Route::get('/contactos', [ContactoController::class,'index'])->name('contactos');
+Route::resource('contactos', ContactoController::class);
