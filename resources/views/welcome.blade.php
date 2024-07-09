@@ -6,7 +6,7 @@
         <div class="grid grid-cols-1 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
 
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">SOFTWARE PROTEGE SST</h1>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white justify-center items-center">"PROTEGE" SOFTWARE SEGURIDAD Y SALUD OCUPACIONAL</span> </h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Simplifica y optimiza la gestión de la seguridad y salud de tus trabajadores!</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-start sm:space-y-0">
                 <a href="{{ route('contactos.index') }}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-950 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">

@@ -15,6 +15,7 @@ class Contacto extends Model
         'nombre_empresa',
         'numero_identificacion',
         'telefono',
+        'correo',
         'nombre_persona',
         'fecha',
     ];
