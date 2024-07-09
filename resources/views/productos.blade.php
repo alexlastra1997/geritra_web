@@ -8,34 +8,25 @@
 </section>
 
 <section class="bg-white dark:bg-gray-900">
-        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-            <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
-            <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
-            <div class="mt-4 md:mt-0">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-blue-900 dark:text-white">PROTEGE SST</h2>
-                <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">es una plataforma integral diseñada para la gestión de seguridad y salud en el trabajo. Este sistema avanzado facilita a las organizaciones la implementación de procesos eficaces para identificar, evaluar y controlar los riesgos laborales, cumpliendo con la normativa y estándares internacionales. "PROTEGE" no solo automatiza tareas críticas como la gestión de riesgos laborales, la salud ocupacional, las investigaciones de accidentes y el control de EPP, sino que también promueve una cultura de seguridad proactiva mediante herramientas para la capacitación, las inspecciones y el seguimiento continuo del cumplimiento normativo.</p>
-                <a href="#" class="inline-flex items-center text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
-                    Nuestros Servicios
-                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
-            </div>
+    <div class="gap-8 items-center py-8 px-5  md:mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6 ">
+        <img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+        <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image">
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">PROTEGE SST</h2>
+            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400 text-justify">Es una plataforma integral diseñada para la gestión de seguridad y salud en el trabajo. Este sistema avanzado facilita a las organizaciones la implementación de procesos eficaces para identificar, evaluar y controlar los riesgos laborales, cumpliendo con la normativa y estándares internacionales. "PROTEGE" no solo automatiza tareas críticas como la gestión de riesgos laborales, la salud ocupacional, las investigaciones de accidentes y el control de EPP, sino que también promueve una cultura de seguridad proactiva mediante herramientas para la capacitación, las inspecciones y el seguimiento continuo del cumplimiento normativo.</p>
+            
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-lg mb-8 lg:mb-16">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">PROTEGE SST</h2>
-            <p class="text-gray-500 sm:text-xl dark:text-gray-400">Es una plataforma integral diseñada para la gestión de seguridad y salud en el trabajo. Este sistema avanzado facilita a las organizaciones la implementación de procesos eficaces para identificar, evaluar y controlar los riesgos laborales, cumpliendo con la normativa y estándares internacionales. "PROTEGE" no solo automatiza tareas críticas como la gestión de riesgos laborales, la salud ocupacional, las investigaciones de accidentes y el control de EPP, sino que también promueve una cultura de seguridad proactiva mediante herramientas para la capacitación, las inspecciones y el seguimiento continuo del cumplimiento normativo.</p>
-        </div>
-
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">MÓDULOS PROTEGE SST</h2>
 
-        
         <div id="accordion-collapse" data-accordion="collapse">
             <h2 id="accordion-collapse-heading-1">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-                <span>1. Gestión Técnica de Riesgos del trabajo</span>
+                <span class="text-left">1. Gestión Técnica de Riesgos del trabajo</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -50,7 +41,7 @@
 
             <h2 id="accordion-collapse-heading-2">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-                <span>2. Gestión de la Salud Ocupacional</span>
+                <span class="text-left">2. Gestión de la Salud Ocupacional</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -65,7 +56,7 @@
 
             <h2 id="accordion-collapse-heading-3">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-                <span>3. Gestión de la Investigación de Accidentes y Enfermedades</span>
+                <span class="text-left">3. Gestión de la Investigación de Accidentes y Enfermedades</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -80,7 +71,7 @@
 
             <h2 id="accordion-collapse-heading-4">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-4" aria-expanded="true" aria-controls="accordion-collapse-body-4">
-                <span>4. Gestión de EPP y Ropa de Trabajo</span>
+                <span class="text-left">4. Gestión de EPP y Ropa de Trabajo</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -94,7 +85,7 @@
 
             <h2 id="accordion-collapse-heading-5">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-5" aria-expanded="true" aria-controls="accordion-collapse-body-5">
-                <span>5. Control de Actos y Condiciones Subestándar</span>
+                <span class="text-left">5. Control de Actos y Condiciones Subestándar</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -108,7 +99,7 @@
 
             <h2 id="accordion-collapse-heading-6">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-6" aria-expanded="true" aria-controls="accordion-collapse-body-6">
-                <span>6. Gestión de Permisos de Trabajo para actividades críticas</span>
+                <span class="text-left">6. Gestión de Permisos de Trabajo para actividades críticas</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -122,7 +113,7 @@
 
             <h2 id="accordion-collapse-heading-7">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-7" aria-expanded="true" aria-controls="accordion-collapse-body-7">
-                <span>7. Gestión de Inspecciones  </span>
+                <span class="text-left">7. Gestión de Inspecciones  </span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -136,7 +127,7 @@
 
             <h2 id="accordion-collapse-heading-8">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-8" aria-expanded="true" aria-controls="accordion-collapse-body-8">
-                <span>8. Gestión de la Capacitaciones de SST</span>
+                <span class="text-left">8. Gestión de la Capacitaciones de SST</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -150,7 +141,7 @@
 
             <h2 id="accordion-collapse-heading-9">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-9" aria-expanded="true" aria-controls="accordion-collapse-body-9">
-                <span>9. Gestión de Documentación de SST</span>
+                <span class="text-left">9. Gestión de Documentación de SST</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -164,7 +155,7 @@
 
             <h2 id="accordion-collapse-heading-10">
                 <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-10" aria-expanded="true" aria-controls="accordion-collapse-body-10">
-                <span>10. Gestión de Organismos Paritarios de SST</span>
+                <span class="text-left">10. Gestión de Organismos Paritarios de SST</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -178,7 +169,7 @@
 
             <h2 id="accordion-collapse-heading-11">
                 <button type="button" class="flex items-center justify-between w-full rounded-b-xl p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-11" aria-expanded="true" aria-controls="accordion-collapse-body-11">
-                <span>9. Gestión de Documentación de SST</span>
+                <span class="text-left">11. Gestión de Documentación de SST</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -189,11 +180,38 @@
                 <p class="mb-2 text-gray-500 dark:text-gray-400">Se encarga de organizar de manera eficiente y controlar toda la documentación relacionada con la seguridad y salud en el trabajo. Esto incluye políticas, procedimientos, registros y normativas pertinentes. El sistema facilita el acceso rápido y seguro a los documentos actualizados, asegurando que todos los empleados tengan la información más reciente y relevante para cumplir con las normativas de SST. Además, permite la distribución adecuada de documentos clave a través de herramientas de gestión documental avanzadas, asegurando la integridad y disponibilidad de la documentación crítica en todo momento. Este enfoque sistemático no solo mejora la eficiencia operativa al reducir el tiempo dedicado a la búsqueda de información, sino que también fortalece el cumplimiento normativo y promueve una buena cultura organizacional.</p>
                 </div>
             </div>
-
-
-            
         </div>
 
     </div>
 </section>
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">BENEFICIOS DEL SOFTWARE</h2>
+            <ol class="relative border-s border-gray-200 dark:border-gray-700 mx-5">                  
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-justify">PROTEGE ofrece beneficios significativos para la gestión integral de seguridad y salud en el trabajo. Permite a las organizaciones identificar, evaluar y controlar eficazmente los riesgos laborales, asegurando el cumplimiento normativo y estándares de seguridad específicos.</p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-justify">Optimiza la administración de la salud ocupacional de los empleados, gestionando de manera eficiente exámenes médicos, historias clínicas y programas de vigilancia epidemiológica.</p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-justify">Proporciona herramientas para la investigación detallada de accidentes y enfermedades laborales, lo que permite identificar las causas raíz y desarrollar planes de acción correctiva efectivos.</p>
+                </li>
+                <li class="mb-10 ms-4">
+                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-justify">Centraliza la planificación, ejecución y seguimiento de inspecciones de seguridad en el lugar de trabajo, permitiendo la identificación oportuna de no conformidades y la implementación de acciones correctivas necesarias.</p>
+                </li>
+                
+            </ol>
+        </div>
+        <p>video aqui</p>
+    </div>
+</section>
+
+
 @endsection
