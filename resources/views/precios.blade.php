@@ -58,7 +58,7 @@
             <a href="#" class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
         </div>
         <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-blue-950 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-            <h3 class="mb-4 text-2xl font-semibold">Empresas Medianas A</h3>
+            <h3 class="mb-4 text-2xl font-semibold">Empresas Medianas B</h3>
             <div class="flex justify-center items-baseline my-8">
                 <span class="mr-2 text-5xl font-extrabold text-blue-950">$250</span>
                 <span class="text-gray-500 dark:text-gray-400">/mensual</span>
@@ -104,7 +104,7 @@
         <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-blue-950 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 class="mb-4 text-2xl font-semibold">Empresas Grandes B</h3>
             <div class="flex justify-center items-baseline my-8">
-                <span class="mr-2 text-5xl font-extrabold text-blue-950">$100</span>
+                <span class="mr-2 text-5xl font-extrabold text-blue-950">$1000</span>
                 <span class="text-gray-500 dark:text-gray-400">/mensual</span>
             </div>
             <!-- List -->
