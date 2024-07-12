@@ -37,8 +37,8 @@
             <p class="mb-4">Proporcionamos asesoría técnica especializada en la implementación y optimización de sistemas de gestión de seguridad y salud en el trabajo. Nuestros consultores expertos en SST ofrecen orientación estratégica para la selección, configuración y uso eficaz de software de SST, como nuestro sistema de gestión “PROTEGE”. Nos aseguramos de que las organizaciones aprovechen al máximo las herramientas tecnológicas disponibles para mejorar la gestión de riesgos laborales y garantizar un ambiente de trabajo seguro y conforme con la normativa existente.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+            <img class="w-full rounded-lg" src="https://img.freepik.com/free-photo/team-software-programmers-leaving-after-analyzing-source-code-wall-screen-tv-comparing-errors-using-digital-tablet-system-engineers-passing-screens-compiling-code-artificial-intelligence_482257-41848.jpg?t=st=1720559408~exp=1720563008~hmac=8798b76fe1a2f6f30bdfa6c1e034e6345c9ed4528cb539b9da1a1c24344ec936&w=826" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://img.freepik.com/free-photo/portrait-engineers-work-hours-job-site_23-2151589545.jpg?t=st=1720559256~exp=1720562856~hmac=7491928c49a4038f472eb4e21af31d5f04e0d45a4dbac9b774be544b3f7f6392&w=826" alt="office content 2">
         </div>
     </div>
 </section>

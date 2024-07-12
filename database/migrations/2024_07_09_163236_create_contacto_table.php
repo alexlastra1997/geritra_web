@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('nombre_empresa');
             $table->string('numero_identificacion', 13);
             $table->string('telefono');
+            $table->string('correo');
             $table->string('nombre_persona');
             $table->date('fecha');
             $table->timestamps();

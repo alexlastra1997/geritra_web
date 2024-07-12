@@ -91,21 +91,22 @@
                         <input type="number" id="telefono" name="telefono" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="(+593)**********" required>
                     </div>
                     <div>
+                        <label for="correo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">correo electrónico</label>
+                        <input type="email" id="correo" name="correo" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="example@example.com" required>
+                    </div>
+                    <div>
                         <label for="nombre_persona" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nombre de la persona de contácto</label>
                         <input type="text" id="nombre_persona" name="nombre_persona" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Nombre y Apellido" required>
                     </div>
                     
                     <div>
-                        <label for="fecha" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nombre de la persona de contácto</label>
+                        <label for="fecha" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fecha de posible reunión</label>
                         <input type="date" id="fecha" name="fecha" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Nombre y Apellido" required>
                     </div>
                 </div>
                 <button type="submit" class="  py-3 px-5 mx-5 text-sm font-medium text-center  text-white rounded-lg bg-lime-500 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Enviar</button>
             </form>
-              
-
         </div>
-        
     </div>
   </section>
 @endsection

@@ -25,6 +25,7 @@ class ContactoController extends Controller
             'nombre_empresa' => 'required|string|max:255',
             'numero_identificacion' => 'required|numeric|digits_between:1,13',
             'telefono' => 'required|string|max:255',
+            'correo' => 'required|string|max:255',
             'nombre_persona' => 'required|string|max:255',
             'fecha' => 'required|date',
         ]);
@@ -36,6 +37,7 @@ class ContactoController extends Controller
             'nombre_empresa' => $request->nombre_empresa,
             'numero_identificacion' => $request->numero_identificacion,
             'telefono' => $request->telefono,
+            'correo' => $request->correo,
             'nombre_persona' => $request->nombre_persona,
             'fecha' => $fecha,
         ]);
