@@ -11,7 +11,7 @@
             </button>
             <div class="flex flex-wrap gap-2">
                 <a href="tel:5541251234" class="text-sm hidden lg:block text-gray-500 dark:text-white hover:underline">(+593) 983 056 998</a>
-                <a href="email@email.com" class="text-sm hidden lg:block text-gray-500 dark:text-white hover:underline">gerencia@geritra.com</a>
+                <a href="mailto:gerencial@geritra.com" class="text-sm hidden lg:block text-gray-500 dark:text-white hover:underline">gerencia@geritra.com</a>
             </div>
             
         </div>

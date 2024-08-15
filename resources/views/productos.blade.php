@@ -93,7 +93,7 @@
             </h2>
             <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">El módulo se encarga de la administración integral de la entrega, control y mantenimiento de la ropa de trabajo y los equipos de protección personal, adaptándose a los riesgos específicos de cada puesto. Incluye funcionalidades para la adquisición de EPP y ropa de trabajo, el registro de su entrega a los trabajadores, y la programación de inspecciones y mantenimientos necesarios. Además, asegura el cumplimiento de normas y especificaciones de seguridad basadas en los estándares exigidos por los entes de control, garantizando que todos los equipos y prendas proporcionen la protección adecuada y contribuyan a un entorno de trabajo más seguro y saludable.</p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">El módulo está fundamentado en la teoría de Heinrich, que sugiere que, por cada 300 incidentes, puede haber 29 lesiones y uno puede ser fatal. Basado en el concepto de STOP (Seguridad en el Trabajo por Observación Preventiva), este módulo permite a todos los trabajadores acceder y reportar oportunamente, a través de sus teléfonos móviles, actos y condiciones subestándares, así como incidentes en el lugar de trabajo, promoviendo una cultura de seguridad proactiva. Proporciona herramientas para la identificación y el control de riesgos, implementando medidas correctivas y preventivas efectivas. Este enfoque integral incluye el proceso de "Decida, deténgase, observe, piense y actúe" para prevenir incidentes graves y fomentar una cultura de seguridad participativa.</p>
                 </div>
             </div>
 
@@ -169,7 +169,7 @@
 
             <h2 id="accordion-collapse-heading-11">
                 <button type="button" class="flex items-center justify-between w-full rounded-b-xl p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-11" aria-expanded="true" aria-controls="accordion-collapse-body-11">
-                <span class="text-left">11. Gestión de Documentación de SST</span>
+                <span class="text-left">11.	Gestión de Entregables a los Órganos de Control</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                 </svg>
@@ -177,7 +177,7 @@
             </h2>
             <div id="accordion-collapse-body-11" class="hidden" aria-labelledby="accordion-collapse-heading-11">
                 <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Se encarga de organizar de manera eficiente y controlar toda la documentación relacionada con la seguridad y salud en el trabajo. Esto incluye políticas, procedimientos, registros y normativas pertinentes. El sistema facilita el acceso rápido y seguro a los documentos actualizados, asegurando que todos los empleados tengan la información más reciente y relevante para cumplir con las normativas de SST. Además, permite la distribución adecuada de documentos clave a través de herramientas de gestión documental avanzadas, asegurando la integridad y disponibilidad de la documentación crítica en todo momento. Este enfoque sistemático no solo mejora la eficiencia operativa al reducir el tiempo dedicado a la búsqueda de información, sino que también fortalece el cumplimiento normativo y promueve una buena cultura organizacional.</p>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">Éste módulo administrado por la organización está diseñado para asegurar el cumplimiento de las regulaciones de seguridad y salud en el trabajo establecidas por los órganos de control y el ente asegurador. Es un módulo programable, que permite la visualización de datos e indicadores del sistema y facilitando la preparación y presentación de informes requeridos por la autoridad. Además, permite el seguimiento de los plazos y asegura el cumplimiento de los requisitos legales. Es una herramienta valiosa para la generación de informes y otros documentos necesarios, garantizando que la organización cumpla con toda la normativa vigente en materia de seguridad y salud en el trabajo.</p>
                 </div>
             </div>
         </div>
