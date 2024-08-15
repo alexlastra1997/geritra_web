@@ -186,7 +186,8 @@
 </section>
 
 <section class="bg-white dark:bg-gray-900">
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-1 lg:py-16 lg:px-6">
+
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">BENEFICIOS DEL SOFTWARE</h2>
             <ol class="relative border-s border-gray-200 dark:border-gray-700 mx-5">                  
@@ -209,9 +210,28 @@
                 
             </ol>
         </div>
-        <div class="video-responsive">
-            <iframe src="https://www.youtube.com/embed/rt9YYhNiE9g?si=0wdARJv9fs51bwNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+
+        <div>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">PROTEGE SST</h2>
+            <div class="video-responsive">
+                <iframe src="https://www.youtube.com/embed/rt9YYhNiE9g?si=0wdARJv9fs51bwNG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
+
+        <div>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-lime-500 dark:text-white">PROTEGE SST (EDUCATIVO) </h2>
+            <div class="video-responsive">
+                <iframe  src="https://www.youtube.com/embed/1I3JUffMCEc?si=cAI-dfIZnFF_NjTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+
+        </div>
+        
+
         <style>
             .video-responsive {
                 position: relative;
@@ -223,6 +243,24 @@
             }
 
             .video-responsive iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+
+            .video-responsive2 {
+                position: relative;
+                padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                background: #000;
+            }
+
+            .video-responsive2 iframe {
                 position: absolute;
                 top: 0;
                 left: 0;
